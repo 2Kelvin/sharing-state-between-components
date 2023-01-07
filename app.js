@@ -8,7 +8,7 @@ function Panel(_ref) {
 
   return React.createElement(
     "section",
-    { className: "panel" },
+    { className: "_panel" },
     React.createElement(
       "h3",
       null,
@@ -34,7 +34,7 @@ function Parent() {
 
   return React.createElement(
     "div",
-    null,
+    { className: "_parent" },
     React.createElement(
       "h2",
       null,

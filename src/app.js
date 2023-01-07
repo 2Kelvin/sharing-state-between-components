@@ -1,6 +1,6 @@
 function Panel({ title, children, isActive, onShow }) {
   return (
-    <section className="panel">
+    <section className="_panel">
       <h3>{title}</h3>
       {isActive ? (
         <p>{children}</p>
@@ -15,7 +15,7 @@ function Parent() {
   const [activeIndex, setActiveIndex] = React.useState(null);
 
   return (
-    <div>
+    <div className="_parent">
       <h2>Almaty, Kazakhstan</h2>
       <Panel
         title="About"

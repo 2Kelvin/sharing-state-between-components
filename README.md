@@ -1,5 +1,7 @@
 # sharing-state-between-components
 
+![kazakstan](https://user-images.githubusercontent.com/85868026/211130978-6af62b22-c580-4661-8ee7-c1ef80ed474a.png)
+
 In this read, I learnt:
 
 - sharing state between components is called `lifting state up`
